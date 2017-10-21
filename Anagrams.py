@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver_que = webdriver.PhantomJS(executable_path="C:\\Users\\USER\\Desktop\\CSE\\8\\phantomjs.exe")
-driver_ans = webdriver.PhantomJS(executable_path="C:\\Users\\USER\\Desktop\\CSE\\8\\phantomjs.exe")
+driver_que = webdriver.PhantomJS(executable_path="C:\\Users\\USER\\Desktop\\CSE\\phantomjs.exe")
+driver_ans = webdriver.PhantomJS(executable_path="C:\\Users\\USER\\Desktop\\CSE\\phantomjs.exe")
 inp = []
 
 def display_rules():

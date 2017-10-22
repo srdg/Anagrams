@@ -36,7 +36,7 @@ def play_game():
 	return inp 
 
 def main():
-	print("Please wait while I build my database...")
+	print("Please stand by while I build my database...")
 	wrd = get_words()
 	ans = get_anagrams(wrd)
 	input("READY TO PLAY? PRESS ENTER ")
@@ -48,5 +48,6 @@ def main():
 	else: print("Looks like you need to practice more, buddy! Better luck next time!");
 	print("The possible answers were...")
 	print(ans)
+	input("Press ENTER to finish!!")
 
 main()

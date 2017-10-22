@@ -8,11 +8,15 @@ driver_ans = webdriver.PhantomJS(executable_path="C:\\Users\\USER\\Desktop\\CSE\
 inp = []
 
 def display_rules():
+	print("===============================================RULES=========================================================")
 	print("You are required to identify all possible anagrams of a word to win the game, which includes the word itself.")
 	print("So, if you can't think of any, just enter the word in question. That way, at least you won't score a ZERO :P")
 	print("Your score will be calculated on a total of 100.00 points.")
 	print("The more anagrams you get correct, the better your score would be (I think I didn't need to say that)")
 	print("You can give incorrect, meaningless words as inputs, though they would not be calculated towards your final score.")
+	print("Now if I'm late in getting ready, that means you need to get a stronger internet connection!")
+	print("Or perhaps a better PC, hmm?")
+	print("--------------------------------------------END OF RULES-----------------------------------------------------")
 
 def get_words():
 	driver_que.get("https://www.textfixer.com/tools/random-words.php")

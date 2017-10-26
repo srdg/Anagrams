@@ -58,5 +58,7 @@ def main():
 	print("The possible answers were...")
 	print(ans)
 	input("Press ENTER to finish!!")
-
-main()
+try:
+	main()
+except:
+	print("\n\nSORRY SORRY SORRY!!!\nSOME KIND OF AN ERROR OCCURRED DURING PROCESSING THE INPUT. PLEASE CHECK!")
